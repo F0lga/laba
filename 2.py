@@ -5,13 +5,13 @@ n = int(input("Введите количество студентов: "))
 for i in range(n):
     surname = input("Введите фамилию студента: ")
     name = input("Введите имя студента: ")
-    birthdate = input("Введите дату рождения студента (гггг-мм-дд): ")
+    birthdate = input("Введите дату рождения студента (дд-мм-гггг): ")
     record_book = input("Введите номер зачетной книжки студента: ")
     subjects = []
     m = int(input("Введите количество предметов: "))
     for j in range(m):
         subject = input("Введите название предмета: ")
-        exam_date = input("Введите дату экзамена (гггг-мм-дд): ")
+        exam_date = input("Введите дату экзамена (дд-мм-гггг): ")
         teacher = input("Введите ФИО преподавателя: ")
         grade = input("Введите оценку: ")
         subjects.append([subject, exam_date, teacher, grade])
